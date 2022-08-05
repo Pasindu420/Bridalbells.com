@@ -8,7 +8,7 @@
 nav{
   position: fixed;
   z-index: 99;
-  width: 100%;
+  width: 120%;
   
   background: #242526;
 }
@@ -272,13 +272,21 @@ nav input{
 
 
 .logo img{
-    padding-left:20px;
+    margin-left:0%;
     padding-top:37%;
     width:450px;
     float:left;
     
 }
 
+.section .glass{
+    position:center;
+    width:500px;
+    height:600px;
+    box-shadow:0 25px 50px rgb(0,0,0,0.2);
+    background:transparent;
+    backdrop-filter:blur(10px);
+}
 .video-container {
 
 width:100%;
