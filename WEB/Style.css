@@ -271,13 +271,7 @@ nav input{
 
 
 
-.logo img{
-    margin-left:0%;
-    padding-top:37%;
-    width:45px;
-    float:left;
-    
-}
+
 
 .section .glass{
     position:center;
@@ -293,8 +287,8 @@ width:100%;
 height:70vh;
 overflow:hidden;
 
-top:0;
-left:0;
+top:0px;
+left: 0%;;
 background:cover;
 }
 
