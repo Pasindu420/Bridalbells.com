@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    
+}
+
 .navigation{
   padding-top:30px;
   padding-bottom:30px;
@@ -23,13 +28,12 @@
 .navbar-right a:hover{
   text-decoration:underline;
 }
-.navbar-logo{
-  padding-left:10%;
-  font-family:Arial;
-  font-size:30px;
-  font-weight:bold;
-  text-decoration:none;
-  color:#fff;
+
+.logo img{
+    padding-left:10%;
+    margin-top:-35px;
+    width:960px;
+    height:540px;
 }
 
 .video-container {
@@ -40,6 +44,7 @@ overflow:hidden;
 position:absolute;
 top:0;
 left:0;
+background:cover;
 }
 
 #video-bg{
