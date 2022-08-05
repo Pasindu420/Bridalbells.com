@@ -1,111 +1,47 @@
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="Home.css" />
-    </head>
+<head>
+<title>Bridal Bells</title>
+<link rel="stylesheet" href="Home.css">
+</head>
 
-    <body>
-        
-        
-        <div class="collapse navbar-collapse">
-        <nav id="nav" class="navbar navbar-default">
-                <li id="navB"> <a class="navButton" href=""> RSVP</a></li>
-                <li><a href="">HOME</a></li>
-                <li><a href=""> WEDDING INFO</a></li>
-                <li><a href="">REGISTRY</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li>Bridal Bells</li>
-        </nav>
-        </div>
-
-            
-
-        <div id="home-RSVP" class="home-div parallax" style="height:800px">
-            <div class="container">
-                <h1 class="homeh1"> Bridal Bells </h1>
-                <p class="homep"> Aug 5, 2017, Wisconsin Dells, WI </p>
-                <button> <a href="">RSVP</a></button>
-            </div>
-        </div>
+<body>
 
 
-        <div id="home-ourStory" class="home-div page-div">
-            <div class="container-fluid">
-                <h2 class="homeh2">Please join us on August 5th as we celebrate our wedding in the Dells.</h2>
-                <p class="homep"> PHOTOGRAPHY BY MOANA</p>
-                   
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div id="firstStory" class="storyImage"></div>
-                            <h3>Jordan's Story</h3>
-                            <p class="storyBlurb"> Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen.  </p>
-                        </div>
-                        
-                        <div class="col-md-4">
-                            <div id="secondStory" class="storyImage" style="background-position: 50% 40%;"></div>
-                            <h3>Yesi's Story</h3>
-                            <p class="storyBlurb">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen.</p>
-                        </div>
-                        
-                        <div class="col-md-4">
-                            <div id="thirdStory" class="storyImage"></div>
-                            <h3>Our Story</h3>
-                            <p class="storyBlurb">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen.</p>
-                        </div>
 
-                    </div>
-                
-            </div>
-        </div>
+<header>
+  <div class="header">
+    <nav class="navigation">
+      <a href="#" class="navbar-logo"><img src="/Volumes/Teslas EHD/Bridalbells.com/Design/Poster/Group 07.png" alt="Italian Trulli"> </a>
+      <div class="navbar-right">
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
 
-        
-        
-         <div id="home-arrive" class="home-div parallax non-main">
-            <h1 class="homeh1"> Arrival </h1>
-            <p class="homep"> August, 05, 2017 </p>
-        </div>
+    <div class="video-container">
+      <video autoplay loop muted id="video-bg">
 
+        <source src="http://bigcom.com/assets/2014/08/iChooseB.mp4" type="video/mp4">
 
-        <div id="home-schedule" class="home-div">
-            <div class="container-fluid" style="max-width:960px;">
-                <div class="row">
-                    <div class="col-md-4">
-                    <h3>Ceremony Start</h3>
-                    <p class="homep"> 3:30pm </p>
-                    <p class="storyBlurb">
-                        Trappers Turn</br>2955 Wisconsin Dells Pkwy</br>Wisconsin Dells, WI 53965</br> Phone: (608) 253-7000
-                    </p>
-                    </div>
-                    
-                    <div class="col-md-4">
-                    <h3>Dinner Party</h3>
-                    <p class="homep"> 5:30pm </p>
-                    <p class="storyBlurb">
-                        Trappers Turn</br>2955 Wisconsin Dells Pkwy</br>Wisconsin Dells, WI 53965</br> Phone: (608) 253-7000
-                    </p>
-                    </div>
-                    
-                    <div class="col-md-4">
-                    <h3>Recception</h3>
-                        <p class="homep"> 7:00pm </p>
-                        <p class="storyBlurb">
-                            Trappers Turn</br>2955 Wisconsin Dells Pkwy</br>Wisconsin Dells, WI 53965</br> Phone: (608) 253-7000
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="home-contact" class="home-div parallax non-main">
-            <h1 class="homeh1"> Want more info?</h1>
-           <button><a href="{% url 'contact' %}">Contact Us</a></button>
-        </div>
-
-        <div class="home-div  footer">
-            <p> Website developed by Jsquared Industries. Copyright 2017 &copy; </p>
+      </video>
     </div>
-        
-            <script src="{% static 'app.js' %}"></script>
-
-    </body>
+  </div>
+</header>
+<div class="portfolio-section">
+  <div class="tagline-left">
+    <div class="tagline-left-text">Serving the waters that serve our state.</div>
+    <video autoplay muted loop class="tagline-video">
+      <source src="http://www.bigcom.com/assets/2014/10/asmc_bg2.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="tagline-right">
+    <div class="tagline-right-text">The future is for workers</div>
+    <video autoplay muted loop class="tagline-video">
+      <source src="http://www.bigcom.com/assets/2014/08/GoBuildAlabama.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+</body>
 </html>

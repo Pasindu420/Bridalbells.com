@@ -1,554 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Bahiana');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,300');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
-/* ===========================================
-base
-============================================== */
-body {
-    padding:0 auto;
-    margin:0 auto;
-    font-size:20px;
-    font-family: 'Roboto', sans-serif;
-    text-decoration:none;
-}
-
-#nav {
-    width:100%;
-    margin:10 auto;
-    list-style:none;
-    position:fixed;
-    background-color: rgba(255, 255, 255, 0);
-    font-family: 'Roboto', sans-serif;
-    border: none;
-}
-
-#nav li {
-    float:right;
-    margin:10px auto;
-    padding:30px 0px 10px 0px;4
-}
-
-#nav li:hover {
-    opacity: .5;
-}
-
-#nav a {
-    color:#ffffff;
-    display:block;
-    text-align:center;
-    width:150px; /* fixed width */
-    text-decoration:none;
-}
-
-#nav li:first-child {
-    padding-right:40px;
-
-}
-
-#nav li:last-child {
-    float:left;
-    padding-left:40px;
-    color:#ffb570;
-
-}
-
-.navButton {
-    border:#ffffff solid 1px;
-    padding:10px 0px 10px 0px;
-
-
-}
-
-.navButton:hover {
-    background-color:#ffffff;
-}
-
-#navB a:hover {
-    color:#000000;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-
-.page-div {
-padding-top:0px;
-margin-top:0px;
-}
-
-.footer {
-    height:100px;
-    background:rgba(0,0,0, .88);
-}
-
-.footer p {
-    color:#000000;
-    font-size:1em;
-    padding-top: 40px;
-}
-
-iframe {
-    padding:40px;
-    border:none;
-}
-/* ===========================================
-hidden classes
-============================================== */
-
-.hover-text {
-    color:#B8DDB4;
-}
-
-ul.errorlist {
-    margin: 0;
-    padding: 0;
-}
-
-.errorlist li {
-     background-color: red;
-    color: white;
-    display: block;
-    font-size: 10px;
-    margin: 0 0 3px;
-    padding: 4px 5px;
- }
-
-
-/* ===========================================
-home
-============================================== */
-
-.homeh1 {
-    font-size:3.9em;
-    color:#ffffff;
-    font-family: 'Roboto', sans-serif;
-}
-
-.homeh2 {
-    margin-top: 130px;
-    font-size: 1.5em;
-    color:#474747;
-    font-family: 'Roboto', sans-serif;
-}
-
-.homep {
-    color:#9b9b9b;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom:20px;
-    font-size: 1.2em;
-
-}
-
-.descriptionP {
-    padding-top:30px;
-    padding-bottom: 40px;
-    width:600px;
-    color:#494949;
-    margin:auto;
-    font-size:.85em;
-}
-
-.home-div {
-    text-align:center;
-    background-image:none;
-    /*height:768px; */
-    margin:0;
-    padding:0;
-}
-
-.home-div.parallax {
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size:cover;
-    background-position: 50% 50%;
-    background-color: rgba(0,0,0, .5);
-}
-
-.non-main {
-    height: 500px;
-}
-
-
-.home-div button {
-    padding:20px 40px;
-    font-size:1.6em;
-    position:relative;
-}
-
-
-.home-div.parallax button {
-    background:none;
-    background-color:none;
-    border:#ffffff solid 3px;
-    color:#ffffff;
-    position:relative;
-}
-
-#home-RSVP {
-    background-image:url("img/jordenia1.jpg");
-    background-position: 58% -70px;
-
-}
-
-#home-RSVP button{
-    font-size:1.2em;
-    border: #ffb570 solid .5px;
-    color: #ffb570;
-    padding:5px 30px;
-
-}
-
-#home-RSVP button:hover {
-    font-size:1.2em;
-    border: #ffb570 solid .5px;
-    background-color: #ffb570;
-    color: #000000;
-    opacity: .59;
-    font-family: 'Roboto', sans-serif;
-}
-
-#home-RSVP a{
-    color: #ffb570;
-
-}
-
-#home-RSVP a:hover {
-    color:rgba(0,0,0,.5);
-    text-decoration:none;
-
-}
-
-
-
-
-
-
-/* begin original section */
-#home-ourStory  {
-    
-}
-
-#home-ourStory .row {
-    padding-top:50px;
-    padding-bottom: 50px;
-}
-
-#home-ourStory h3  {
-    padding-top:30px;
-    font-family: sans-serif;
-    color:#494949;
-}
-
-#home-ourStory .storyBlurb  {
-    padding-top:30px;
-    padding-bottom: 40px;
-    width:300px;
-    color:#494949;
-    margin:auto;
-    font-size:.85em;
-    
+.navigation{
+  padding-top:30px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
 }
 
-#home-ourStory button {
-    background:none;
-    background-color:none;
-    border:#ffb570 solid 3px;
-    color:#ffb570;
-    position:relative;
-    font-size:1.2em;
-    padding:10px 20px;
+.navbar-right{
+  float:right;
+  padding-right:10%;
 }
 
-#home-ourStory a {
-    font-size:1em;
-    color:#ffb570;
-    text-decoration:none;
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:900;
 }
 
-#home-ourStory a:hover {
-    color:#ffffff;
+.navbar-right a:hover{
+  text-decoration:underline;
 }
-
-#home-ourStory button:hover {
-    background:none;
-    background-color:#ffb570;
-    border:#ffffff solid 3px;
-    color:#ffffff;
-    position:relative;
-}
-
-#home-ourStory .homep {
-    color:#F9B862;
-    font-size:0.9em;
-    font-family: sans-serif;
-}
-
-#home-ourStory .storyImage {
-    margin:auto;
-    padding:auto;
-    height:180px;
-    width:300px;
-    background-size:90%;
-    background-position: 50% 20%;
-}
-/* end original section */
-
-
-#firstStory {
-    /* background-image: url("img/Jordan.jpg"); */
-     background: #808080;
-}
-
-#secondStory {
-    /*background-image: url("img/Yesi.jpg"); */
-    background: #808080;
-}
-
-#thirdStory {
-   /* background-image: url("img/ourStory.jpg"); */
-    background: #808080;
-}
-
-
-#home-arrive {
-    background-image: url("img/jordenia3.jpg");
-}
-
-/* THIS MODULE MAY LEAD TO PROGRAMATIC LAYOUT PROBLEMS */
-#home-arrive .homeh1 {
-    position:relative;
-    padding-top: 200px;
-
-}
-
-#home-schedule {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-#home-schedule h3  {
-    padding-top:30px;
-    font-family: sans-serif;
-    color:#494949;
-}
-
-
-#home-schedule .homep {
-    color:#F9B862;
-    font-size:0.9em;
-    font-family: sans-serif;
-}
-
-#home-schedule .storyBlurb  {
-    line-height:40px;
-    padding-top:30px;
-    padding-bottom: 40px;
-    margin:auto;
-    width:300px;
-    color:#494949;
-    margin:auto;
-    font-size:.85em;
-    
-}
-
-
-#home-contact {
-    background-image:url('img/jordenia4.jpg');
-    background-position: 50% 100px;
-}
-
-#home-contact .homeh1 {
-    position:relative;
-    padding-top: 200px;
-
-}
-
-#home-contact button{
-    font-size:1.2em;
-    border: #ffb570 solid .5px;
-   
-    padding:5px 30px;
-
-}
-
-#home-contact a{
-    font-size:1.2em;
-    color: #ffb570;
-    text-decoration:none;
-}
-
-#home-contact button:hover {
-    font-size:1.2em;
-    border: #ffb570 solid .5px;
-    background-color: #ffb570;
-   
-    opacity: .59;
-    font-family: 'Roboto', sans-serif;
-}
-#home-contact a:hover {
-    color: #000000;
-    text-decoration:none;
-    opacity: .59;
-    font-family: 'Roboto', sans-serif;
-}
-
-#home-RSVP div {
-    position:relative;
-    top:40%;
-}
-
-/* ===========================================
-registry
-============================================== */
-
-#registry-page {
-    background-image:url("img/gifts2d.jpg");
-    background-size: 1900px 700px;
-    background-position:50% 0%;
-
-}
-
-#registry-page .homeh1{
-    margin-top:230px;
-    
-
-}
-
-#registery-links {
-    float:center;
-    clear:both;
-    padding:10px;
-}
-
-.registry-text {
-    font-size:1.7em;
-    
-}
-
-/* ===========================================
-contact
-============================================== */
-#contact-page {
-    background-image:url("img/jordenia5.jpg");
-}
-
-#contact-page .homeh1{
-    margin-top:230px;
-    
-
-}
-
-
-#contact-info {
-    float:center;
-    clear:both;
-    padding:10px;
-}
-
-/* ===========================================
-RSVP
-============================================== */
-
-#RSVP-page .homeh1{
-    margin-top:230px;
-    
-
+.navbar-logo{
+  padding-left:10%;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff;
 }
 
-#RSVP-page {
-    background-image:url("img/gifts3d.jpg");
-    background-size: 1900px 700px;
-    background-position:50% 0%;
+.video-container {
+z-index: -100;
+width:100%;
+height:75%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
 }
 
-#RSVP-header {
-    clear:both;
-    padding:10px;
-    color:#494949;
+#video-bg{
+  width:100%;
+ 
 }
 
-#RSVP-form {
-    padding-left:43%;
-    padding-bottom:90px;
+.portfolio-section{
+  margin-top:50%;
 }
-
-#RSVP-form table input{
-    border: #ffb570 solid .5px;
-    border-radius:0px;
-}
-
-#RSVP-submit{
-    border: none;
-    border-radius: 0px;
-    background:#ffb570;
-    color:#ffffff;
-    font-size:1.1em;
-    padding: 5px 10px;
-    margin:20px 0px 20px 90px;
-    float:left;
-}
-
-#RSVP-submit:hover {
-    background:#ffd2aa;
-}
-
-/* ===========================================
-wedding info page
-============================================== */
-#wedding-info-page {
-    background-image:url("img/redtail2.jpg");
-    background-position: 50% -270px;
-    
-
-}
-
-#wedding-info-page .homeh1{
-    margin-top:230px;
-    
-
+.tagline-left{
+  float:left;
+  width:50%;
+  text-align:center;
 }
 
-#wedding-info-page .homep {
-    color:#cecece;
+.tagline-right{
+  float:right;
+  width:50%;
+  text-align:center;
 }
 
-#what-to-do .homeh1{
-
-}
-
-#what-to-do .homep{
-    
-    
-
-}
-
-#what-to-do .container-fluid{
-    padding-top:160px;
-    margin-top:70px;
-    position:relative;
-
+.tagline-video{
+  width:75%;
 }
 
-
-#what-to-do {
-    background-image: url("img/redtail.jpg");
+.tagline-right-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:17%;
+font-family:Arial;
+ color:#fff;
+  width:290px;
+  font-size:40px;
 }
-
 
-/* ===========================================
-about
-============================================== */
-
-#about-info {
-    float:center;
-    clear:both;
-    padding:10px;
+.tagline-left-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:11%;
+font-family:Arial;
+ color:#fff;
+  width:375px;
+  font-size:40px;
 }
-
-
