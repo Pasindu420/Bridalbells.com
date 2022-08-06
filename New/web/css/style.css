@@ -2,12 +2,11 @@
 body{
 	margin:0;
 	padding:0;
-	background:#fff;
+	background:rgb(255, 255, 255);
 	font-family: 'Noto Sans', sans-serif;
 	background-image:url('/Volumes/Teslas EHD/Bridalbells.com/Design/Images/background.png');
 	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100vh;
+
 
  }
 body a{
