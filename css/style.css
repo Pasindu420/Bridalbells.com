@@ -4,7 +4,7 @@ body{
 	padding:0;
 	background:rgb(255, 255, 255);
 	font-family: 'Noto Sans', sans-serif;
-	background-image:url('/Volumes/Teslas EHD/Bridalbells.com/Design/Images/background.png');
+	background-image:url('./Design/Images/background.png');
 	background-size: cover;
 
 
