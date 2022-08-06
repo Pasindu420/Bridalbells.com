@@ -5424,6 +5424,8 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
