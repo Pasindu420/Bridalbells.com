@@ -661,7 +661,7 @@ ul.nav.tabs {
 }
 .offer-img img{
 	margin:0 auto;
-	width: 55%;
+	width: 90%;
 }
 .offer{
 	    position: absolute;
@@ -669,7 +669,7 @@ ul.nav.tabs {
     right: -15px;
     border: 2px solid #ED0612;
     border-radius: 100px 0 0 100px;
-    padding: 2px;
+    padding: 1px;
 }
 .offer p{
     background: #ED0612;

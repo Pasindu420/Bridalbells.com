@@ -217,7 +217,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<div class="clearfix"></div>
 										</div>
 										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="Moong" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="Wedding Halls" data-summary="summary 1" data-price="100000.00" data-quantity="1" data-image="./Design/Images/BB.jpeg">Add to Cart</button>
 										</div>
 										
 									</div>
@@ -241,7 +241,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<div class="clearfix"></div>
 										</div>
 												<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="Cake Decoration" data-summary="summary 2" data-price="Rs.4500.00" data-quantity="1" data-image="./Design/Images/cake.webp">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="Cake Decoration" data-summary="summary 2" data-price="4500.00" data-quantity="1" data-image="./Design/Images/cake.webp">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -249,22 +249,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="col-md-3 m-wthree">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
-										<img src="images/of2.png" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
+										<img src="./Design/Images/ashtaka.jpeg" class="img-responsive" alt="">
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Kabuli Chana</a>(1 kg)</h6>							
+											<h6><a href="single.html">Ashtaka & Poruwa</a></h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$3.00</label><em class="item_price">$2.00</em></p>
+											<p >From<label>Rs.25000.00</label><em class="item_price">Rs.20000.00</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="3" data-name="Ashtaka & Poruwa" data-summary="summary 3" data-price="20000.00" data-quantity="1" data-image="./Design/Images/ashtaka.jpeg">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -272,22 +271,22 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="col-md-3 m-wthree">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
-										<img src="images/of3.png" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
+										<img src="./Design/Images/dress.jpeg" class="img-responsive" alt="">
+										
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Soya Chunks</a>(1 kg)</h6>							
+											<h6><a href="single.html">Bridal Dressing</a></h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											<p ><label>Rs.30000.00</label><em class="item_price">Rs.28000.00</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="4" data-name="Bridal Dressing" data-summary="summary 4" data-price="28000.00" data-quantity="1" data-image="./Design/Images/dress.jpeg">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -672,7 +671,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
     
     </div><!-- /.carousel -->
 
-<!--content-->
+<!--content
 	<div class="product">
 		<div class="container">
 			<div class="spec ">
@@ -864,7 +863,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						 </div>
 		</div>
-	</div>
+	</div>-->
 <!--footer-->
 <div class="footer">
 	<div class="container">
@@ -961,7 +960,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
     var goToCartIcon = function($addTocartBtn){
       var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      var $image = $('<img width="30px" height="30px" src="./Design/Images/cart.png"' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
       $addTocartBtn.prepend($image);
       var position = $cartIcon.position();
       $image.animate({
