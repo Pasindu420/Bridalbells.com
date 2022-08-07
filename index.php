@@ -1035,21 +1035,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="modal-body modal-spa">
 								<div class="col-md-5 span-2">
 											<div class="item">
-												<img src="./Design/Images/cake.webp" class="img-responsive" alt="">
+												<img src="images/of1.png" class="img-responsive" alt="">
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
 									<h3>Cake Decoration</h3>
-									<p class="in-para"> We’re all for a statement-making cake, but understated cakes can go a long way.</p>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>Rs.5000.00</del>Rs.4500.00</span>
+									  <span class="reducedfrom "><del>$10.00</del>$9.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc">A vine of earth-toned flowers and vivid greenery dress up frosted tiers and seminude layers. The look, like the rest of the wedding, was inspired by the bride’s grandparents’ safari honeymoon. We love a nostalgic nod!</p>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="./Design/Images/cake.webp">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -1067,21 +1067,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="modal-body modal-spa">
 								<div class="col-md-5 span-2">
 											<div class="item">
-												<img src="./Design/Images/ashtaka.jpeg" class="img-responsive" alt="">
+												<img src="images/of2.png" class="img-responsive" alt="">
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Ashtaka & Poruwa</h3>
-									<p class="in-para"> This event is the without a dout the main event of a wedding ceremony.</p>
+									<h3>Kabuli Chana(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>Rs.25000.00</del>Rs.20000.00</span>
+									  <span class="reducedfrom "><del>$3.00</del>$2.00</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> The Poruwa ceremony has undergone so many changes over the generations. With the influence of the western tradition the wearing of the veil, the exchange of rings and the western dress can be seen. So, anyone who observes the Poruwa ceremony from a sociological or anthropological perspective would note that it has become a major ritual comprising of many minor rituals that have undergone timely changes.</p>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="./Design/Images/ashtaka.jpeg">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -1099,21 +1099,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="modal-body modal-spa">
 								<div class="col-md-5 span-2">
 											<div class="item">
-												<img src="./Design/Images/dress.jpeg" class="img-responsive" alt="">
+												<img src="images/of3.png" class="img-responsive" alt="">
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Bridal Dressing</h3>
-									<p class="in-para"> WE WILL DRESS YOU UP FOR THAT BIG “WOW!”</p>
+									<h3>Soya Chunks(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>Rs.30000.00</del>Rs.28000.00</span>
+									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Brides will be dressed in a way that will leave everyone speechless.</p>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="./Design/Images/dress.jpeg">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -1131,21 +1131,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="modal-body modal-spa">
 								<div class="col-md-5 span-2">
 											<div class="item">
-												<img src="./Design/Images/4to.jpeg" class="img-responsive" alt="">
+												<img src="images/of4.png" class="img-responsive" alt="">
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Photographers</h3>
-									<p class="in-para"> Capturing moments to help form memories that will last a lifetime is what it’s all about.</p>
+									<h3>Lays(100 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
 									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc">freeze special moments in just the right time on your big day so that you can pass them down and cherish them in generations to come.</p>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="./Design/Images/4to.jpeg">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -1163,11 +1163,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="modal-body modal-spa">
 								<div class="col-md-5 span-2">
 											<div class="item">
-												<img src="./Design/Images/vid.jpeg" class="img-responsive" alt="">
+												<img src="images/of5.png" class="img-responsive" alt="">
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Videographers</h3>
+									<h3>Kurkure(100 g)</h3>
 									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
 									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
@@ -1175,7 +1175,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> We believe your wedding day is not merely a day but an unfolding of your beloved dreams. Hence, We don't just cover your wedding! Instead, we capture every tiny detail of your adored and joyous moments, starting from the gleam of hopes for your big day to saying goodbye for a new beginning purely to unveil the story of your celebration of love in a cinematic replay!</p>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
 										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
 										</div>
