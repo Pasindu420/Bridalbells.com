@@ -8,9 +8,9 @@ if (isset($_POST['submit'])) {
         $password = $_POST['Password'];
        
 
-        $host = "#";
-        $dbUsername = "root";
-        $dbPassword = "";
+        $host = "bridalbells.mysql.database.azure.com";
+        $dbUsername = "Bells";
+        $dbPassword = "G7@bridal";
         $dbName = "bridalbells_db";
 
         $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
@@ -19,8 +19,8 @@ if (isset($_POST['submit'])) {
             die('Could not connect to the database.');
         }
         else {
-            $Select = "SELECT email FROM register WHERE email = ? LIMIT 1";
-            $Insert = "INSERT INTO register(username, email, password,) values(?, ?, ?)";
+            $Select = "SELECT Email FROM customer WHERE Email = ? LIMIT 1";
+            $Insert = "INSERT INTO customer(User_name, Email, Password) values(?, ?, ?)";
 
             $stmt = $conn->prepare($Select);
             $stmt->bind_param("s", $email);
@@ -36,14 +36,14 @@ if (isset($_POST['submit'])) {
                 $stmt = $conn->prepare($Insert);
                 $stmt->bind_param("ssssii",$username, $email, $password);
                 if ($stmt->execute()) {
-                    echo "New record inserted sucessfully.";
+                    echo "New User Registerd Sucessfully!";
                 }
                 else {
                     echo $stmt->error;
                 }
             }
             else {
-                echo "Someone already registers using this email.";
+                echo "Someone has already registerd using this email! Try anything else!";
             }
             $stmt->close();
             $conn->close();
