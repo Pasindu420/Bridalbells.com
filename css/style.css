@@ -19,6 +19,7 @@ body a{
 h1,h2,h3,h4,h5,h6{
 	margin:0;
 	font-family: 'Montserrat', sans-serif;	
+    
 }	
 p,label{
 	margin:0;
@@ -775,6 +776,12 @@ color: #B3B3B3;
 	border-bottom: 1px solid #f0f0f0;
     border-top: 1px solid #f0f0f0;
 	padding:1em 0;
+}
+p.coming{
+    padding-top: 5em;
+    padding-bottom:5em;
+    padding-left:27em;
+    padding-right:27em;
 }
 .price_single {
     padding-bottom: 1em;
