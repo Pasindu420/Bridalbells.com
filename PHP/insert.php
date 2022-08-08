@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
 
         $host = "bridalbells.mysql.database.azure.com";
         $dbUsername = "Bells";
-        $dbPassword = "G7@bridal";
+        $dbPassword = "G7@Bridal";
         $dbName = "bridalbells_db";
 
         $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
