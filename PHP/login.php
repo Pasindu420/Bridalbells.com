@@ -14,7 +14,7 @@ if($conn->connect_error){
     if($stmt_result->num_rows > 0){
         $data = $stmt_result->fetch_assoc();
         if($data['Password'] == $password){
-            echo "Login Successfully";
+            echo "Login Successfull";
             header('location: ../index.html');
             
         }else {
