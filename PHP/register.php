@@ -14,6 +14,7 @@
 		$execval = $stmt->execute();
 		echo $execval;
 		echo "Registration Successful..";
+        header('location: ../login.html');
 		$stmt->close();
 		$conn->close();
 	}
