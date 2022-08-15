@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Fonts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/the-bafger-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/gasing-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/sageyl-sageyl-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/summer-letter-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/paradigma-signature-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/honofly-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/yesterday-font.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Design/Fonts/before-the-rain-font.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

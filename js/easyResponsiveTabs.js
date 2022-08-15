@@ -1,5 +1,4 @@
-// Easy Responsive Tabs Plugin
-// Author: Samson.Onna <Email : samson3d@gmail.com>
+
 (function ($) {
     $.fn.extend({
         easyResponsiveTabs: function (options) {
